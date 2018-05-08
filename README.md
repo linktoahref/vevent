@@ -1,5 +1,10 @@
 # A Simple VEvent Generator
+
 ---
+
+### Installation
+
+    composer require linktoahref/vevent
 
 ### Usage
 
