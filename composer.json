@@ -1,0 +1,19 @@
+{
+    "name": "linktoahref/vevent",
+    "description": "A Simple VEvent Generator",
+    "type": "library",
+    "require": {
+    },
+    "autoload": {
+        "psr-4": {
+            "LTAH\\Generator\\": "src"
+        }
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Rahul Chandrasekharan",
+            "email": "rahulchandran18@gmail.com"
+        }
+    ]
+}
