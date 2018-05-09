@@ -1,7 +1,5 @@
 # A Simple VEvent Generator
 
----
-
 ### Installation
 
     composer require linktoahref/vevent
@@ -11,11 +9,11 @@
 ```php
 use LTAH\Generator\VEvent;
 
-$event = VEvent::create('test', new DateTime('2018-05-10'), new DateTime('2018-05-11'));
+$event = VEvent::create('Event Summary or Title', new DateTime('2018-05-10'), new DateTime('2018-05-11'));
 
-$event->addOrganizer('test', 'test@mail.com');
+$event->addOrganizer('Organizer Name', 'test@mail.com');
 
-$event->addAttendees('foo', 'foo@bar.com');
+$event->addAttendees('Attendee Name', 'foo@bar.com');
 
 echo $event->render();
 ```
